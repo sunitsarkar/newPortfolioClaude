@@ -651,7 +651,7 @@ function Contact() {
           {[
             { label:"sunit6503@gmail.com", icon:"✉", action: copy, note: copied ? "Copied!" : null },
             { label:"+91 8637075992", icon:"📞", action: () => window.open("tel:+918637075992") },
-            { label:"linkedin.com/in/srkr99", icon:"in", action: () => window.open("https://linkedin.com/in/srkr99","_blank") },
+            { label:"linkedin.com/in/srkr99", icon:"in", action: () => window.open("https://linkedin.com/in/sunitskr","_blank") },
             { label:"github.com/sunitsarkar", icon:"⌥", action: () => window.open("https://github.com/sunitsarkar","_blank") },
           ].map(({ label, icon, action, note }) => (
             <button key={label} onClick={action} style={{
