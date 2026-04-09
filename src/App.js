@@ -325,7 +325,7 @@ function Hero() {
         <div className="fade-up delay-5" style={{ display:"flex", gap:20, marginTop:32, alignItems:"center" }}>
           {[
             { label:"GitHub", href:"https://github.com/sunitsarkar" },
-            { label:"LinkedIn", href:"https://linkedin.com/in/srkr99" },
+            { label:"LinkedIn", href:"https://linkedin.com/in/sunitskr" },
             { label:"Email", href:"mailto:sunit6503@gmail.com" },
           ].map(s => (
             <a key={s.label} href={s.href} target="_blank" rel="noreferrer" style={{
