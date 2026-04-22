@@ -483,8 +483,8 @@ function Experience() {
 // ─── Education ────────────────────────────────────────────────────────────────
 const EDU = [
   { degree:"B.Tech — Electrical Engineering", inst:"Ramkrishna Mahato Govt. Engineering College, Purulia", year:"2018 – 2022", grade:"CGPA 8.39 / 10", highlight:true },
-  { degree:"Higher Secondary (WBCHSE)", inst:"Bethuadahari JCM High School", year:"2017", grade:"66%", highlight:false },
-  { degree:"Secondary (WBBSE)", inst:"Sapjola Deshbandhu High School", year:"2015", grade:"78%", highlight:false },
+  // { degree:"Higher Secondary (WBCHSE)", inst:"Bethuadahari JCM High School", year:"2017", grade:"66%", highlight:false },
+  // { degree:"Secondary (WBBSE)", inst:"Sapjola Deshbandhu High School", year:"2015", grade:"78%", highlight:false },
 ];
 
 function Education() {
@@ -651,7 +651,7 @@ function Contact() {
           {[
             { label:"sunit6503@gmail.com", icon:"✉", action: copy, note: copied ? "Copied!" : null },
             { label:"+91 8637075992", icon:"📞", action: () => window.open("tel:+918637075992") },
-            { label:"linkedin.com/in/srkr99", icon:"in", action: () => window.open("https://linkedin.com/in/sunitskr","_blank") },
+            { label:"linkedin.com/in/sunitskr", icon:"in", action: () => window.open("https://linkedin.com/in/sunitskr","_blank") },
             { label:"github.com/sunitsarkar", icon:"⌥", action: () => window.open("https://github.com/sunitsarkar","_blank") },
           ].map(({ label, icon, action, note }) => (
             <button key={label} onClick={action} style={{
